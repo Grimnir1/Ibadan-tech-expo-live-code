@@ -3,7 +3,6 @@ body{
     margin-left: 140px;
     background-color: #f4f5f4;
     margin-right: 8%;
-
 }
 .navar{
     position: sticky;   
@@ -13,6 +12,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    width: 100%;
 }
 .navbar1{
     display: flex;
@@ -103,8 +103,49 @@ li {
 .venue{
     margin-top: 60px;
     border-radius: 10px;
-    height: 20%;
+    height: 200%;
+    padding: 10px;
     width: 100%;
     color: white;
     background-image: linear-gradient(to right, #c28e0f , #5477cf);
+}
+.Aibte{
+    display: flex;
+    width: 100%;
+    place-items: center;
+    margin-top: 100px;
+}
+#div1{
+    width: 50%;
+}
+#div2{
+    width: 50%;
+}
+#tit-img{
+    display: inline-block;
+    width: 630px;
+    border-bottom:2px solid #fdb915;
+}
+#second-tit-img{
+    width: 600px;
+}
+.tit-text{
+    color:  #254092;
+    font-weight: 600;
+}
+.main-venue{
+    margin-top: 20px;
+}
+#mv-header{
+    color:  #254092;
+    font-weight: 900;
+    font-size: 72px;
+    font-family: jost;
+}
+#mv-img{
+    display: inline-block;
+    width: 100%;
+}
+.speakers{
+    margin-top: 100px;
 }
